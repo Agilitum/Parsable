@@ -1,0 +1,13 @@
+Simple application with following features:
+
+Authentication:
+  - register()
+  - loging()
+  - logout() [unimplemented atm]
+  
+Data storage:
+  - sendText()
+  - sendNumber()
+  
+Interesting are the use of Volley and a JobManager which allows to send messages even when offline
+as well as ensuring in order delivery and resend when the network connection is available again.
